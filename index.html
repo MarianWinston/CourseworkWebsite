@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=1, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>up831162</h1>
+        </div>
+    </header>
+
+    <div class="topnav" id="myTopnav">
+      <a class="button" href="index.html" tabindex="1">Home</a>
+      <a class="button" href="log.html" tabindex="2">Discovery Log</a>
+      <a class="button" href="lit.html" tabindex="3">Literature Review</a>
+      <a class="button" href="contact.html" tabindex="4">Contact</a>
+      <a href="#" style="font-size:15px;" class="icon"
+      onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <section id="showcase">
+      <div class="container">
+        <p>WEBF1 Coursework 2</p>
+      </div>
+    </section>
+
+    <div class="container">
+        <section id="main">
+            <h1>Welcome to the homepage</h1>
+            <p>My video</p>
+            <video controls="">
+              <source src="images/video.MOV" type="video/mp4">
+              <source src="images/video.mp4" type="video/mp4">
+              <source src="images/video.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              <!--<track label = "English" kind="subtitles" srclang="en"
+              src="transcript.vtt" default/>-->
+            </video>
+
+        </section>
+
+        <aside id="sidebar">
+            <p>In this video I briefly show how to navigate on my website</p>
+        </aside>
+    </div>
+
+    <footer id="main-footer">
+      <p>
+        <a href="http://validator.w3.org/check/referer">
+          <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+          width="63" height="64" alt="~HTML5 Powered" title="HTML5 Powered">
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+          src=http://jigsaw.w3.org/css-validator/images/vcss-blue alt="Valid CSS!" />
+        </a>
+      </p>
+      <p>up831162 University Of Portsmouth</p>
+
+    </footer>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
+</body>
+
+</html>
